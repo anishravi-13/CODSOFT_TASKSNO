@@ -1,6 +1,6 @@
-Task 1 - Rule-Based Chatbot
+##Task 1 - Rule-Based Chatbot
 
-About the Project
+#About the Project
 
 This project is a simple rule-based chatbot created using Python.
 
