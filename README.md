@@ -67,26 +67,6 @@ Task4_Recommendation_System
 
 ---
 
-## Repository Structure
-
-CODSOFT_TASKSNO/
-|
-|-- Task1_Chatbot/
-|   |-- chatbot.py
-|   |-- README.md
-|
-|-- Task2/
-|   |-- tic_tac_toe.py
-|   |-- README.md
-|
-|-- Task4_Recommendation_System/
-|   |-- recommendation_system.py
-|   |-- README.md
-|
-|-- README.md
-
----
-
 ## Technologies Used
 
 The projects in this repository use Python and different programming and machine learning concepts, including:
