@@ -1,33 +1,42 @@
 # Task 4 - Recommendation System
 
-## About the Project
+## Project Overview
 
 This project is a simple movie recommendation system developed using Python.
 
-The system recommends movies based on the movie selected by the user. It uses content-based filtering to compare movie descriptions and find movies that are similar.
+The system recommends movies to the user based on the movie they choose. It uses content-based filtering to find movies with similar descriptions.
 
-## Features
+## How It Works
 
-- Movie recommendation system
-- Content-based filtering
-- User can enter a movie name
-- Recommends similar movies
-- Uses TF-IDF to process movie descriptions
-- Uses cosine similarity to compare movies
-- Simple command-line interface
-- Option to get another recommendation
+The recommendation system follows these steps:
+
+1. The user enters the name of a movie.
+2. The movie descriptions are processed using TF-IDF.
+3. Cosine similarity is used to compare the movies.
+4. The movies are ranked based on their similarity.
+5. The system displays the top recommended movies.
 
 ## Technologies Used
 
 - Python
 - Pandas
 - Scikit-learn
-- TF-IDF Vectorizer
+- TF-IDF
 - Cosine Similarity
+
+## Features
+
+- Simple command-line interface
+- Movie-based recommendations
+- Content-based filtering
+- TF-IDF text processing
+- Cosine similarity
+- Displays multiple recommended movies
+- Allows the user to search again
 
 ## How to Run
 
-First, install the required libraries:
+Install the required libraries:
 
 ```bash
 pip install pandas scikit-learn
